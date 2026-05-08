@@ -1,0 +1,173 @@
+:root {
+--azulm: #08142e;
+    --Rojof: #8e1818;
+    --bg-light: #f8f9fa;
+    --griss: #c8c4c4;
+    --GF: #555657;
+    --rojo-claro:#c73f3f;
+    --azula:#0f2655;
+}
+
+* {
+margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+footer {
+    width: 100%;
+    background-color: var(--azulm);
+    padding: 30px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    margin-top: auto;
+}
+
+
+.Principal img {
+  height: 110px;
+  display: block;
+  margin-right: 40px;
+}
+
+
+h4 {
+    color: var(--bg-light);
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-family: "Fjalla One", sans-serif;
+    margin-block-end: 15px;
+}
+
+
+.Principal h4 {
+    color: var(--bg-light);
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-family: "Fjalla One", sans-serif;
+}
+
+
+.Principal p {
+    margin-top: 25px;
+    color: var(--griss);
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 2;
+    text-align: justify;
+    width: 100%;
+}
+
+
+
+
+.f-col p {
+    text-align: justify;
+    color: #d1d1d1;
+    line-height: 1.6;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+    margin-bottom: 20px;
+}
+
+
+.contenido {
+
+
+  display: grid;
+  grid-template-columns:3fr 1fr 1fr 1.5fr;
+  max-width: 90%;
+  margin: 0 auto;
+  gap: 40px;
+  padding: 0 5%; /
+}
+
+
+
+
+footer .contacto{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;              
+    margin-bottom: 18px;    
+}
+
+
+footer .contacto i {
+    color: var(--rojo-claro);            
+    font-size: 1.1rem;
+    min-width: 20px;        
+    margin-top: 4px;        
+}
+
+
+footer .contacto span {
+    color: #d1d1d1;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    text-align: left;
+}
+footer .f-col a {
+  display: block;
+  color: #a0a0a0;
+  text-decoration: none;
+  margin-bottom: 12px;
+  font-size: 1.10rem;
+}
+
+
+footer .f-col a:hover {
+  color: var(--rojo-claro)
+}
+
+
+footer .btn-red:hover {
+  background-color: #d93025;
+}
+
+
+footer .social {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+footer .dock {
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 10px 20px;
+    border-radius: 20px; 
+    display: flex;
+    box-shadow: 0 10px 30px rgba(100, 92, 92, 0.3); 
+}
+
+
+footer .icono {
+    width: 60px; 
+    height: 60px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    cursor: pointer;        
+    transition: transform 0.3s ease-out;
+}
+
+footer .icono i {
+    font-size: 35px; /* Tamaño del icono */
+    color: white;    /* Color por defecto del icono */
+}
+
+
+footer .icono:hover {
+    transform: translateY(-20px) scale(1.5);
+}
+
+
+
+
+

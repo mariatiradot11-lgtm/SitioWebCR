@@ -1,0 +1,84 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 10px 5%;
+  background-color: #fff;
+ box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+ 
+/*OJO: esto puede que no sea compatible, segun es lo  más moderno, hay que comprobarlo*/
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.Espacios img {
+  height: 110px;
+  display: block; 
+  margin-right: 40px;
+}
+
+.Espacios {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.Espacios a {
+  color: #024a92; 
+  font-weight: 500;
+  font-size: 18px;
+  position: relative; 
+  padding: 5px 0;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  width: 100%;
+  white-space: nowrap;
+}
+
+/* --- Nota: esto es importante, sirve para el cambio de color, NO MODIFICAR ATTE: AVIS11 --- */
+
+.Espacios a:hover {
+  color: #c0392b; 
+}
+
+.Espacios a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #c0392b;
+  transition: width 0.3s ease; 
+}
+
+
+.Espacios a:hover::after {
+  width: 100%;
+}
+
+/* NOTA: Segun esto va a servir para marcar un link activo- ESTA EN PRUEBA 31/03/2026 7:00 PM NO MODIFICAR ATTE: AVIS11*/
+/* NOTA: Resultado 100% APROBADO, sirve para poner la línea azul y azul en la pagina que estas, RECORDAR PONER EL CLASS ACTIVO EN EL INDEX, YA QUE SI NO NO FUNCIONA ----- 31/03/2026 7:26 PM NO MODIFICAR ATTE: AVIS11 */
+
+.Espacios a.active {
+  color: #003366;
+  border-bottom: 2px solid #003366;
+  font-weight: bold;
+}
+
+
+
+
+

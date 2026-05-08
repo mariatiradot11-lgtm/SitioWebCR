@@ -1,0 +1,68 @@
+/* Estilo para el grupo de fotos */
+.contenedor-fotos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+/* Estilo para cada foto individual */
+.foto {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px; /* Esto hace las esquinas redondas */
+    cursor: pointer;
+}
+
+/* Estilo para cuando la imagen se abre en grande */
+.pantalla-grande {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#foto-ampliada {
+    /* Cambia el 90% por 50% o 60% para que sea más pequeña */
+    max-width: 60%; 
+    max-height: 60%;
+    
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5); /* Opcional: una sombra suave */
+}
+
+.boton-cerrar {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+.flecha {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px;
+    user-select: none; /* Para que no se sombree el texto al picarle */
+    transition: 0.3s;
+}
+
+.flecha:hover {
+    color: #ffcc00; /* Cambia a amarillo al pasar el mouse */
+}
+
+.izquierda { left: 10px; }
+.derecha { right: 10px; }

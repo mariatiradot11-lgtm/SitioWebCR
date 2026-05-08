@@ -1,0 +1,163 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-light);
+}
+
+:root {
+    --azulm: #08142e;
+    --Rojof: #8e1818;
+    --bg-light: #f8f9fa;
+    --griss: #c8c4c499;
+    --GF: #555657;
+     --GFa: #3e3e3e;
+    --rojo-claro:#c73f3f;
+    --azula:#0f2655;
+}
+ 
+.top img {
+    max-width: 100%;
+    height: 275px;
+}
+
+.UNOOOO {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 50px;
+}
+
+ h1 {
+    color: var(--azula);
+    font-size: 3rem;
+    margin-top: 10px;
+    font-family: "Fjalla One", sans-serif;
+    margin-left: 200px;
+}
+
+.mhpvm h2 {
+    color: var(--azulm);
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: "Fjalla One", sans-serif;
+}
+
+.mhpvm p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+    margin-right: 30px;
+}
+
+
+/*DOSSS*/
+
+.container {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; 
+  justify-content: center;
+  margin-left: 300px;
+}
+
+.row {
+  display: flex;
+  gap: 30px; 
+  width: 1200px;
+}
+
+
+.card {
+  padding: 40px;
+  border-radius: 30px; 
+  flex: 1; 
+}
+
+.card h2 {
+  color: #003366; 
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.card p {
+  color: #333;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  text-align: justify;
+
+}
+
+.mision {
+  background-color: #f7dcc8; 
+}
+
+.vision {
+  background-color: #e4e6fc; 
+}
+
+.carisma {
+  background-color: #e2f4e2; 
+  max-width: 60%; 
+}
+
+.divisor-simple {
+  border: 0;
+  height: 2px;
+  background-color: #000; 
+  margin-right: 100px; 
+  margin-left: 100px;
+  margin-block-end: 40px;
+}
+
+
+/*Valores*/
+
+
+.titulo-seccion {
+
+  color: var(--azula);
+    font-size: 3rem;
+      margin-top: 30px;
+      margin-left: 400px;
+      margin-right: 400px;
+    align-items: center;
+    font-family: "Fjalla One", sans-serif;
+  
+}
+
+.grid-valores {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-block-end: 50px;
+}
+
+.valor-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  }
+
+ /* Estilo de los iconos */
+ .valor-item i {
+  font-size: 40px;
+  color: #2c3e50; /* Color de los iconos */
+  margin-bottom: 15px;
+ }
+        
+/* Estilo del texto */
+.valor-item span {
+  color: #2c3e50;
+  font-size: 16px;
+  font-weight: 500;
+}
+.pie img{
+  max-width: 100%;
+  height: 174px;
+  margin-left: 40px;
+}

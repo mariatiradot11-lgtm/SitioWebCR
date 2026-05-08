@@ -1,0 +1,218 @@
+/*Aún no se que significa root pero te ayuda a tener la misma paleta de colores, SE USARA EN LAS PAGINAS SIGUIENTES 10/10 */
+:root {
+    --azul: #0a1a3c;
+    --Rojo: #8e1818;
+    --bg-light: #f8f9fa;
+    --gris: #b0adada7;
+    --GF: #555657;
+    --rojo-claro:#c73f3f;
+
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--gris);
+    line-height: 1.6;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+/*Textos de arriba*/
+.Primera {
+    display: flex;
+    background-color: var(--azul);
+}
+
+
+.Luffy {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sub {
+    color: var(--rojo-claro);
+    font-size: 0.8rem;
+    margin-top: 50px;
+    margin-left: 30px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+
+.Primera h1 {
+    color: var(--bg-light);
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 80px;
+    margin-top: 15px;
+    font-family: "Fjalla One", sans-serif;
+}
+
+
+.Des {
+    color: #7f818286;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+
+
+
+/*INICIA EL CONTENIDO 06/04/2026 */
+.Zoro {
+    display: grid;
+    grid-template-columns: 370px 1fr;
+    gap: 30px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+
+
+/* Tarjetas */
+.card {
+    background: var(--bg-light);
+     padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    margin-right: 35px;
+
+
+}
+
+
+.item {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+.item p strong {
+    margin-top: 10px;
+    color: var(--azul);
+    font-size: 0.95rem;
+}
+
+
+.item p {
+    font-size: 0.9rem;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+
+
+.card h3 {
+    margin-block-end: 20px;
+}
+
+
+
+
+.hours-card {
+    background-color: var(--azul);
+    color: whitesmoke;
+    margin-top: 25px;
+}
+
+
+.hours-list {
+    list-style: none;
+    margin-top: 20px;
+}
+
+
+.hours-list li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 5px;
+}
+
+
+.closed { color: var(--Rojo); font-style: italic; }
+
+
+/* Formulario */
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+
+.input-group {
+    margin-bottom: 20px;
+    flex: 1;
+
+}
+
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 0.75rem;
+    margin-bottom: 8px;
+}
+
+
+input, select, textarea {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--gris);
+    font-size: 0.9rem;
+}
+
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+
+.btn-submit {
+    background-color: var(--azul);
+    color: whitesmoke;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    padding: 15px 30px;
+}
+
+
+/*Aqui se usa otra vez el hover, para el botoncito*/
+.btn-submit:hover {
+    background-color: var(--rojo-claro)
+}
+
+
+/* Mapa con Estilo */
+.map-container {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    line-height: 0;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1)
+}
+
